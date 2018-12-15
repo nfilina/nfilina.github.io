@@ -1,3 +1,11 @@
+<?php  
+    $name = 'Наталья';
+    $age = '200';
+    $email = 'fitasha@mail.ru';
+    $city = 'Новосибирск';
+    $about = 'Full stack разработчик';
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,16 +18,6 @@
     </style>
 </head>
 <body>
-
-    <?php
-    
-        $name = "Наталья";
-        $age = "200";
-        $email = "fitasha@mail.ru";
-        $city = "Новосибирск";
-        $about = "Full stack разработчик";
-
-    ?>
 
     <h1>Добро пожаловать на страницу пользователя <?php echo $name; ?></h1>
 
