@@ -10,25 +10,36 @@
     </style>
 </head>
 <body>
-<?php 
 
-	echo "<h1>Добро пожаловать на страницу пользователя Наталья</h1>";
+    <?php
+    
+        $name = "Наталья";
+        $age = "200";
+        $email = "fitasha@mail.ru";
+        $city = "Новосибирск";
+        $about = "Full stack разработчик";
 
-?>
-	
+    ?>
+
+    <h1>Добро пожаловать на страницу пользователя <?php echo $name; ?></h1>
+
     <dl>
-	<dt>Имя</dt>
-	<dd>Наталья</dd>
-	<dt>Возраст</dt>
-	<dd>200</dd>
-	<dt>Адрес электронной почты</dt>
-	<dd><a href="mailto:fitasha@mail.ru">fitasha@mail.ru</a></dd>
-	<dt>Город</dt>
-	<dd>Новосибирск</dd>
-	<dt>О себе</dt>
-	<dd>Full stack разработчик</dd>
-	</dl>	
+	    <dt><h4>Имя</h4></dt>
+	    <dd><?php echo $name; ?></dd>
+	    <dt><h4>Возраст</h4></dt>
+	    <dd><?php echo $age; ?></dd>
+	    <dt><h4>Адрес электронной почты</h4></dt>
+	    <dd><a href="mailto:fitasha@mail.ru"><?php echo $email; ?></a></dd>
+	    <dt><h4>Город</h4></dt>
+	    <dd><?php echo $city; ?></dd>
+	    <dt><h4>О себе</h4></dt>
+	    <dd><?php echo $about; ?></dd>
+    </dl>	
+
 </body>
 </html>
+
+
+
 
 
