@@ -23,15 +23,15 @@
 
     <dl>
 	    <dt><h4>Имя</h4></dt>
-	    <dd><?php echo $name; ?></dd>
+	        <dd><?php echo $name; ?></dd>
 	    <dt><h4>Возраст</h4></dt>
-	    <dd><?php echo $age; ?></dd>
+	        <dd><?php echo $age; ?></dd>
 	    <dt><h4>Адрес электронной почты</h4></dt>
-	    <dd><a href="mailto:fitasha@mail.ru"><?php echo $email; ?></a></dd>
+	        <dd><a href="mailto:fitasha@mail.ru"><?php echo $email; ?></a></dd>
 	    <dt><h4>Город</h4></dt>
-	    <dd><?php echo $city; ?></dd>
+	        <dd><?php echo $city; ?></dd>
 	    <dt><h4>О себе</h4></dt>
-	    <dd><?php echo $about; ?></dd>
+	        <dd><?php echo $about; ?></dd>
     </dl>	
 
 </body>
